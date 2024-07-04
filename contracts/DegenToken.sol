@@ -5,7 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DegenToken is ERC20, Ownable {
-
+    
+    //test clone
     constructor() ERC20("Degen", "DGN") {}
 
         function mint(address to, uint256 amount) public onlyOwner {
